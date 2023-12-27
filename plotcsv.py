@@ -21,6 +21,5 @@ plt.ylim(-10,30)
 for i in range(1,len(a)-1):
   lin,=plt.plot(x,a[i],label="L"+str(i))
   lines.append(lin)
-plt.ylim(-100,60)
 plt.legend(handles=lines)
 plt.show()
